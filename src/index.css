@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.overlay {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--background-overlay);
+}
+
+.container {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 1rem;
+  border-style: hidden;
+}
+
+.section {
+  color: white;
+  background-color: rgb(6, 42, 63);
+  width: 100%;
+  padding: 2rem;
+  border-style: groove;
+}
+
+.inputs,
+.temperature {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.inputs>input {
+  border-radius: 1rem;
+  color: white;
+  background-color: rgb(27, 9, 43);
+  padding: 0.5rem;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.inputs>input:focus {
+  outline: none;
+}
+
+.temperature>h1 {
+  font-size: 50px;
+}

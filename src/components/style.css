@@ -1,0 +1,30 @@
+.details {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    color: white;
+    background-color: rgb(6, 42, 63);
+    border-style: groove;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    padding: 1rem;
+}
+
+.card-icon {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 16px;
+}
